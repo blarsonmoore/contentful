@@ -31,7 +31,10 @@ class Home extends Component {
         <section id="feature">
           <div className="container">
             <h2>Features</h2>
-            <p>Dummy Text</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam molestie odio sit amet est posuere
+              elementum. Nulla hendrerit lectus urna, quis auctor velit varius nec.
+            </p>
           </div>
         </section>
       </div>
