@@ -189,7 +189,8 @@ input[type='checkbox']:checked ~ .grid {
   background: #eee;
   border: none;
   border-radius: 2px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5) inset, 0 1px 2px rgba(255, 255, 255, 0.9);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5) inset,
+    0 1px 2px rgba(255, 255, 255, 0.9);
   font-size: 14px;
   color: #487677;
   line-height: 25px;
@@ -197,4 +198,45 @@ input[type='checkbox']:checked ~ .grid {
 
 .spacer {
   min-height: 100px;
+}
+
+#services {
+  background: #000 url(../images/services/bg-services.jpg);
+  background-size: cover;
+}
+
+#services h2 {
+  color: #fff;
+}
+
+#services .lead {
+  color: #fff;
+}
+
+.service-wrap {
+  background: #fff;
+  padding: 30px;
+  border-radius: 6px;
+  margin-bottom: 30px;
+}
+
+.service-wrap .media-heading {
+  font-size: 20px;
+}
+
+.blog-content {
+  padding-bottom: 50px;
+}
+
+.blog-content h3 {
+  font-size: 25px;
+}
+
+.img-blog {
+  border-radius: 5px;
+  padding-bottom: 20px;
+}
+.contact-form {
+  text-align: center;
+  padding-bottom: 75px;
 }

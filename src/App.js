@@ -8,6 +8,7 @@ import About from './Pages/About';
 import Services from './Pages/Services';
 import Contact from './Pages/Contact';
 import Blogs from './Pages/Blogs';
+import SingleArticle from './Pages/SingleArticle';
 
 class App extends Component {
   render() {
@@ -20,6 +21,7 @@ class App extends Component {
           <Route exact path="/About" component={About} />
           <Route exact path="/Services" component={Services} />
           <Route exact path="/Blogs" component={Blogs} />
+          <Route exact path="/Blogs/:slug" component={SingleArticle} />
           <Route exact path="/Contact" component={Contact} />
 
           <Footer />
